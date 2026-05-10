@@ -1,0 +1,12 @@
+﻿@model EmployeeReadVM
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <h5 class="card-title">@Model.Id</h5>
+        <h5 class="card-title">@Model.Salary</h5>
+        <h5 class="card-title">@Model.Age</h5>
+        <h6 class="card-subtitle mb-2 text-muted">@Model.Department</h6>
+        <a asp-action="Index" asp-controller="Employee" class="btn btn-outline-secondary">Back</a>
+    </div>
+</div>
